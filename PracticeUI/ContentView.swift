@@ -9,16 +9,34 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                Text("Welcome to GiveSync!")
+                    .font(.system(size: 50))
+                    .frame(alignment: .leading)
+                Image("globe")
+                    .resizable()
+                    .scaledToFit()
+                    .padding()
+                NavigationLink(destination: SignInEmailView()) {
+                    Text("Sign Up")
+                        .padding()
+                        .font(.system(size: 30))
+                        .frame(maxWidth: .infinity)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                        .padding([.horizontal, .bottom])
+                }
+                Spacer()
+            }
+            .padding(.top, 20)
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
