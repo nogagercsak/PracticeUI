@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D230CAB12BA90A7200538ACB /* swipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D230CAB02BA90A7200538ACB /* swipeView.swift */; };
+		D230CAB32BA90B7100538ACB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D230CAB22BA90B7100538ACB /* CardView.swift */; };
 		D287F3DF2BA61AAE00AB09AC /* PracticeUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287F3DE2BA61AAE00AB09AC /* PracticeUIApp.swift */; };
 		D287F3E12BA61AAE00AB09AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287F3E02BA61AAE00AB09AC /* ContentView.swift */; };
 		D287F3E32BA61AB100AB09AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D287F3E22BA61AB100AB09AC /* Assets.xcassets */; };
@@ -15,10 +17,11 @@
 		D287F3EF2BA61BCC00AB09AC /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287F3EE2BA61BCC00AB09AC /* SignInEmailView.swift */; };
 		D287F3F12BA61FE000AB09AC /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287F3F02BA61FE000AB09AC /* SwiftUIView.swift */; };
 		D287F3F32BA6213800AB09AC /* InterestSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287F3F22BA6213800AB09AC /* InterestSelectionView.swift */; };
-		F26382FD2BA9054A002971FB /* swipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26382FC2BA9054A002971FB /* swipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D230CAB02BA90A7200538ACB /* swipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = swipeView.swift; path = ../swipeView.swift; sourceTree = "<group>"; };
+		D230CAB22BA90B7100538ACB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		D287F3DB2BA61AAE00AB09AC /* PracticeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D287F3DE2BA61AAE00AB09AC /* PracticeUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUIApp.swift; sourceTree = "<group>"; };
 		D287F3E02BA61AAE00AB09AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,7 +31,6 @@
 		D287F3EE2BA61BCC00AB09AC /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 		D287F3F02BA61FE000AB09AC /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		D287F3F22BA6213800AB09AC /* InterestSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestSelectionView.swift; sourceTree = "<group>"; };
-		F26382FC2BA9054A002971FB /* swipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,8 @@
 				D287F3E02BA61AAE00AB09AC /* ContentView.swift */,
 				D287F3EE2BA61BCC00AB09AC /* SignInEmailView.swift */,
 				D287F3F02BA61FE000AB09AC /* SwiftUIView.swift */,
-				F26382FC2BA9054A002971FB /* swipeView.swift */,
+				D230CAB02BA90A7200538ACB /* swipeView.swift */,
+				D230CAB22BA90B7100538ACB /* CardView.swift */,
 				D287F3E22BA61AB100AB09AC /* Assets.xcassets */,
 				D287F3E42BA61AB100AB09AC /* Preview Content */,
 			);
@@ -153,9 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D230CAB32BA90B7100538ACB /* CardView.swift in Sources */,
 				D287F3E12BA61AAE00AB09AC /* ContentView.swift in Sources */,
+				D230CAB12BA90A7200538ACB /* swipeView.swift in Sources */,
 				D287F3EF2BA61BCC00AB09AC /* SignInEmailView.swift in Sources */,
-				F26382FD2BA9054A002971FB /* swipeView.swift in Sources */,
 				D287F3F12BA61FE000AB09AC /* SwiftUIView.swift in Sources */,
 				D287F3F32BA6213800AB09AC /* InterestSelectionView.swift in Sources */,
 				D287F3DF2BA61AAE00AB09AC /* PracticeUIApp.swift in Sources */,
